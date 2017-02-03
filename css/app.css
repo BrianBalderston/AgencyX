@@ -1,0 +1,121 @@
+
+.hidden
+{
+	display: none;
+}
+
+
+.address
+{
+	display: none;
+}
+
+
+body
+{
+	
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	
+	background-color: #FFBE00;
+}
+
+header
+{
+	width: 100%;
+}
+
+.heading
+{
+	font-size: 30px;
+}
+
+.main-copy
+{
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px;
+	box-shadow: 5px 4px 0 #FF4144;
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+article h2
+{
+	/*background-color: green;*/
+	box-shadow: 5px 4px 0 #FF4144;
+	border-radius: 4px;
+}
+
+
+#mainNav 
+{
+	float: left;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 12px; /*///////////////////*/
+	margin-bottom: 10px;
+	
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+		
+	box-shadow: 5px 4px 0 #FF4144;	
+}
+#mainNav ul
+{
+	list-style-type: none;	/*gets rid of the bullets*/
+	float: left;
+	padding-top: 20px;	
+}
+#mainNav ul li
+{
+	display: inline; 	/*makes them in a row horizontally*/
+	margin-right: 8px;	
+	
+	box-shadow: -3px 3px 0 #FF4144;
+}
+#mainNav ul li a
+{
+	color: #000000;
+	padding: 5px;
+}
+#mainNav UL li a:hover
+{
+	color: #000000;
+	background-color: #FF4144;
+	border-radius: 4px;
+	/*text-shadow: 2px 2px 4px rgba(255,255,255, 1);*/
+}
+
+
+
+
+
+
+#theMainContent
+	{
+		animation-duration: 2s;
+  		animation-name: slide;
+		transform-origin: center;
+		animation-direction: normal;
+		animation-fill-mode: forwards;
+	}
+
+
+/*////////////////////Animations/////////////////////////*/	
+@keyframes slide
+	{
+		0%
+		{
+			transform: translate(0px,500px);
+		}
+		100%
+		{
+			transform: translate(0px,0px);
+		}
+	}
+
+
+
+
+
